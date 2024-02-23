@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerController {
 	@GetMapping("/home")
 	public String welcome() {
-		return "Welcome to sanjay's docker demo";
+		return "Welcome to sanjay's docker app";
 	}
 }
